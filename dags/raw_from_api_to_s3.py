@@ -17,7 +17,7 @@ DAG_ID = "raw_from_api_to_s3"
 
 # Используемые таблицы в DAG
 LAYER = "raw"
-SOURCE = "earthquake"
+SOURCE = "NBRB_currency"
 
 # S3
 ACCESS_KEY = Variable.get("access_key")

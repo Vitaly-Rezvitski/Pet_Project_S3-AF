@@ -14,7 +14,7 @@ DAG_ID = "raw_from_s3_to_pg"
 
 # Используемые таблицы в DAG
 LAYER = "raw"
-SOURCE = "earthquake"
+SOURCE = "NBRB_currency"
 SCHEMA = "ods"
 TARGET_TABLE = "currency"
 
